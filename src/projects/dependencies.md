@@ -6,6 +6,7 @@ Forge manages dependencies using [git submodules](https://git-scm.com/book/en/v2
 
 To add a dependency, run [`forge install`](../reference/forge/forge-install.md):
 
+
 ```sh
 {{#include ../output/deps/forge-install:all}}
 ```
@@ -23,6 +24,13 @@ By default, `forge install` installs the latest master branch version. If you wa
 ```sh
 $ forge install Rari-Capital/solmate@v6
 ```
+
+or the latest OpenZeppelin Contract code base
+
+```sh
+$ forge install OpenZeppelin/openzeppelin-contracts
+```
+
 
 ### Remapping dependencies
 
